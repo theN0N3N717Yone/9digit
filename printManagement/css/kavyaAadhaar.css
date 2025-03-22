@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'mangal';
+    src: url('fonts/Lohit-Devanagari.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', 'mangal', sans-serif;
+}
+
+.base-image {
+    background: url("img/aadhaar.png") no-repeat;
+    position: absolute;
+    width: 680px;
+    height: 986px;
+    overflow: visible;
+    display: block;
+    background-size: 100% auto;
+}
+
+.enrollment {
+    position: absolute;
+    top: 275px;
+    left: 105px;
+    font-size: 12px;
+
+
+}
+
+.to {
+
+    position: absolute;
+
+    top: 296px;
+    left: 112px;
+    width: 95px;
+    font-size: 9px;
+
+}
+
+.an-hindi-1 {
+    position: absolute;
+
+    top: 307px;
+    left: 112px;
+    width: 95px;
+    font-size: 9px;
+}
+
+.an-english-1 {
+    position: absolute;
+
+    top: 318px;
+    left: 112px;
+    width: 95px;
+    font-size: 9px;
+}
+
+.address-font {
+    position: absolute;
+
+    top: 328px;
+    left: 112px;
+    width: 95px;
+    font-size: 9px;
+}
+
+.qr-code {
+    position: absolute;
+    top: 458px;
+    left: 254px;
+    width: 120px;
+    height: 120px;
+}
+
+.aadhar-number-1 {
+    position: absolute;
+    top: 600px;
+    left: 158px;
+    font-size: 18px;
+}
+
+.aadhar-img {
+    position: absolute;
+    top: 718px;
+    left: 90px;
+    font-size: 18px;
+}
+
+.an-hindi {
+    position: absolute;
+    top: 716px;
+    left: 168px;
+    font-size: 9px;
+}
+
+.an-english {
+    position: absolute;
+    top: 728px;
+    left: 168px;
+    font-size: 9px;
+}
+
+.dob {
+    position: absolute;
+    top: 739px;
+    left: 168px;
+    font-size: 9px;
+}
+
+.gender {
+    position: absolute;
+    top: 750px;
+    left: 168px;
+    font-size: 9px;
+}
+
+.download-date {
+    rotate: -90;
+    position: absolute;
+    top: 715px;
+    left: 72px;
+    font-size: 7px;
+}
+
+.aadhar-number-2 {
+    position: absolute;
+    top: 840px;
+    left: 165px;
+    font-size: 16px;
+}
+
+.pata {
+    position: absolute;
+    top: 708px;
+    left: 410px;
+    font-size: 9px;
+}
+
+.pata-eng {
+    position: absolute;
+    top: 751px;
+    left: 410px;
+    font-size: 9px;
+}
+
+.address-back-eng {
+    position: absolute;
+    top: 760px;
+    left: 410px;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.address-back-hnd {
+    position: absolute;
+    top: 718px;
+    left: 410px;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.qr-code-back {
+    position: absolute;
+    top: 713px;
+    left: 598px;
+    width: 120px;
+    height: 120px;
+}
+
+.aadhar-number-b {
+    position: absolute;
+    top: 835px;
+    left: 510px;
+    font-size: 16px;
+}
+
+.qr-code-font {
+    position: absolute;
+    top: 750px;
+    left: 300px;
+    width: 75px;
+    height: 75px;
+}

@@ -1,0 +1,213 @@
+@font-face {
+    font-family: mangal;
+    src: url(fonts/mangal.ttf);
+}
+
+body {
+    font-family: arial, mangal;
+}
+
+.base-image {
+    background: url("img/voter_old.jpg") no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 800px;
+    left: 35%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    display: block;
+    background-size: 100% auto;
+}
+
+.epic-no {
+    position: absolute;
+    top: 186px;
+    left: 418px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.qr-image {
+    position: absolute;
+    top: 185px;
+    left: 305px;
+}
+
+.voter-image {
+    position: absolute;
+    top: 207px;
+    left: 352px;
+    border: ridge;
+    border-radius: 5px;
+    border-color: #bfc1c6;
+}
+
+.name-hindi {
+    position: absolute;
+    top: 365px;
+    left: 300px;
+    font-size: 11px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.name-english {
+    position: absolute;
+    top: 385px;
+    left: 300px;
+    font-size: 11px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.father-name-hindi {
+    position: absolute;
+    top: 405px;
+    left: 300px;
+    font-size: 11px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.father-name-english {
+    position: absolute;
+    top: 425px;
+    left: 300px;
+    font-size: 11px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.gender {
+    position: absolute;
+    top: 505px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.gender-type {
+    position: absolute;
+    top: 505px;
+    left: 405px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.bob-hindi {
+    position: absolute;
+    top: 519px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.bob-english {
+    position: absolute;
+    top: 529px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.years {
+    position: absolute;
+    top: 524px;
+    left: 405px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.address-hindi {
+    position: absolute;
+    top: 542px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.address-english {
+    position: absolute;
+    top: 565px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.signature {
+    position: absolute;
+    top: 590px;
+    left: 410px;
+}
+
+.officer-hindi {
+    position: absolute;
+    top: 622px;
+    left: 400px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.officer-english {
+    position: absolute;
+    top: 630px;
+    left: 390px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.download-date {
+    position: absolute;
+    top: 620px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.assembly-hindi {
+    position: absolute;
+    top: 648px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.assembly-english {
+    position: absolute;
+    top: 660px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.port-hindi {
+    position: absolute;
+    top: 685px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.port-english {
+    position: absolute;
+    top: 700px;
+    left: 296px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 200px;
+}

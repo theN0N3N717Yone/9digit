@@ -1,0 +1,249 @@
+    @font-face {
+        font-family: "Nirmala";
+        src: url("Nirmala.woff2") format("woff2"), /* Modern Browsers */
+             url("Nirmala.woff") format("woff"),   /* Modern Browsers */
+             url("Nirmala.ttf") format("truetype"); /* Legacy Browsers */
+    }
+
+    body {
+        font-family: Arial, "Nirmala UI", sans-serif;
+    }
+
+    .base-image {
+        background: url("img/nsdl-recipt.jpg") no-repeat;
+        position: absolute;
+        width: 100%; /* Adjust width to fit the page */
+        height: 100%; /* Adjust height to fit the page */
+        left: 0;
+        top: 0;
+        overflow: visible;
+        display: block;
+        background-size: cover; /* Adjust background-size to cover the entire container */
+    }
+    .f-ticarop{
+        position: absolute;
+        top: 41px;
+        left: 578px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .b-ticarop{
+        position: absolute;
+        top: 563px;
+        left: 578px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .f-ack{
+        position: absolute;
+        top: 72px;
+        left: 200px;
+        font-size: 11px;
+    }
+    .b-ack{
+        position: absolute;
+        top: 593px;
+        left: 200px;
+        font-size: 11px;
+    }
+    .f-date{
+        position: absolute;
+        top: 72px;
+        left: 650px;
+        font-size: 11px;
+    }
+    .b-date{
+        position: absolute;
+        top: 595px;
+        left: 658px;
+        font-size: 11px;
+    }
+    .f-panNo{
+        position: absolute;
+        top: 99px;
+        left: 570px;
+        font-size: 11px;
+        width: 200px;
+    }
+    .b-panNo{
+        position: absolute;
+        top: 622px;
+        left: 575px;
+        font-size: 11px;
+        width: 200px;
+    }
+    .f-apName{
+        position: absolute;
+        top: 123px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .b-apName{
+        position: absolute;
+        top: 646px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .f-apNamed{
+        position: absolute;
+        top: 147px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .b-apNamed{
+        position: absolute;
+        top: 669px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .f-apfname{
+        position: absolute;
+        top: 170px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .b-apfname{
+        position: absolute;
+        top: 693px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .f-dob{
+        position: absolute;
+        top: 218px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .b-dob{
+        position: absolute;
+        top: 739px;
+        left: 183px;
+        font-size: 11px;
+    }
+    .f-state{
+        position: absolute;
+        top: 218px;
+        left: 580px;
+        font-size: 11px;
+    }
+    .b-state{
+        position: absolute;
+        top: 739px;
+        left: 565px;
+        font-size: 11px;
+    }
+    .f-mob{
+        position: absolute;
+        top: 242.1px;
+        left: 200px;
+        font-size: 11px;
+    }
+    .b-mob{
+        position: absolute;
+        top: 762.1px;
+        left: 200px;
+        font-size: 11px;
+    }
+    .f-email{
+        position: absolute;
+        top: 242.1px;
+        left: 470px;
+        font-size: 11px;
+    }
+    .b-email{
+        position: absolute;
+        top: 762.1px;
+        left: 440px;
+        font-size: 11px;
+    }
+    .f-amount {
+        position: absolute;
+        top: 340px;
+        left: 653px;
+        font-size: 13px;
+        width: 100px;
+    }
+    .b-amount {
+        position: absolute;
+        top: 856px;
+        left: 667px;
+        font-size: 11px;
+        width: 100px;
+    }
+    .f-tamount {
+        position: absolute;
+        top: 430px;
+        left: 653px;
+        font-size: 15px;
+        width: 100px;
+    }
+    .b-tamount {
+        position: absolute;
+        top: 930px;
+        left: 667px;
+        font-size: 15px;
+        width: 100px;
+    }
+    .f-cAuth{
+        position: absolute;
+        top: 340px;
+        left: 36px;
+        font-size: 8px;
+    }
+    .b-cAuth{
+        position: absolute;
+        top: 855px;
+        left: 36px;
+        font-size: 8px;
+    }
+    .f-branchId{
+        position: absolute;
+        top: 363.5px;
+        left: 82px;
+        font-size: 11px;
+    }
+    .b-branchId{
+        position: absolute;
+        top: 871.8px;
+        left: 75px;
+        font-size: 11px;
+    }
+    .f-branchOwn{
+        position: absolute;
+        top: 380px;
+        left: 36px;
+        font-size: 11px;
+    }
+    .b-branchOwn{
+        position: absolute;
+        top: 888px;
+        left: 36px;
+        font-size: 11px;
+    }
+    .f-branchAddress{
+        position: absolute;
+        top: 400px;
+        left: 36px;
+        font-size: 11px;
+    }
+    .b-branchAddress{
+        position: absolute;
+        top: 908px;
+        left: 36px;
+        font-size: 11px;
+    }
+    .b-disd{
+        position: absolute;
+        top: 1000px;
+        left: 70px;
+        font-size: 15px;
+        width: 650px;
+        text-align: center;
+    }
+    .b-nots{
+        position: absolute;
+        top: 925px;
+        left: 60px;
+        font-size: 8px;
+        width: 420px;
+    }

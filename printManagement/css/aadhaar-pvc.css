@@ -1,0 +1,122 @@
+            @font-face {
+    font-family: "Nirmala";
+    src: url("Nirmala.woff2") format("woff2"), /* Modern Browsers */
+         url("Nirmala.woff") format("woff"),   /* Modern Browsers */
+         url("Nirmala.ttf") format("truetype"); /* Legacy Browsers */
+}
+
+body {
+    font-family: Arial, "Nirmala UI", sans-serif;
+}
+
+.base-image {
+    background: url("img/aadhaar-pvc.jpg") no-repeat;
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    left: -7px;
+    overflow: visible;
+    display: block;
+    background-size: 100% auto;
+}
+
+.aadhar-img {
+    position: absolute;
+    top: 169.5px;
+    left: 84.5px;
+    font-size: 18px;
+}
+
+.aadhar-img-small{
+    position: absolute;
+    top: 169.8px;
+    left: 346px;
+    font-size: 18px;
+}
+
+.an-hindi {
+    position: absolute;
+    top: 168px;
+    left: 175px;
+    font-size: 9px;
+}
+
+.an-english {
+    position: absolute;
+    top: 180px;
+    left: 175px;
+    font-size: 9px;
+}
+
+.dob {
+    position: absolute;
+    top: 192px;
+    left: 175px;
+    font-size: 9px;
+}
+
+.gender {
+    position: absolute;
+    top: 204px;
+    left: 175px;
+    font-size: 9px;
+}
+
+.download-date {
+    rotate: -90;
+    position: absolute;
+    top: 185px;
+    left: 72px;
+    font-size: 7px;
+}
+
+.aadhar-number-2 {
+    position: absolute;
+    top: 275px;
+    left: 180px;
+    font-size: 16px;
+}
+.aadhar-number-3 {
+    position: absolute;
+    top: 204px;
+    left: 347px;
+    font-size: 3.3px;
+}
+
+.pata-eng {
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    font-size: 9px;
+}
+
+.address-back-eng {
+    position: absolute;
+    top: 210px;
+    left: 405px;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.address-back-hnd {
+    position: absolute;
+    top: 165px;
+    left: 405px;
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.qr-code-back {
+    position: absolute;
+    top: 160px;
+    left: 590px;
+    width: 111px;
+    height: 115px;
+}
+
+.aadhar-number-b {
+    position: absolute;
+    top: 275px;
+    left: 500px;
+    font-size: 16px;
+}

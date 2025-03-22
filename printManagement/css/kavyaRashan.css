@@ -1,0 +1,127 @@
+        body {
+            font-family: Helvetica, Lucida Sans, Franklin Gothic Medium, Arial;
+            margin: 50px; /* Adjust margin as needed */
+        }
+        .header {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: -40px;
+            right: 24%;
+        }
+        .base-image {
+            background: url("img/rashan-background.png") no-repeat;
+            position: absolute;
+            width: 750px;
+            height: 900px;
+            left: 22;
+            top: 90;
+            transform: translate(-50%, -50%);
+            overflow: visible;
+            display: block;
+            background-size: 100% auto;
+        }
+        .card-header-back {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 35;
+            left: 500px;
+            color: #4467ac;
+        }
+        .header-dis {
+            position: absolute;
+            font-size: 15px;
+            margin-top: -10px;
+            right: 27%;
+        }
+        
+        .st1-image {
+            position: absolute;
+            width: 29px;
+            height: 80px;
+            left: 32;
+            top: 100;
+            transform: translate(-50%, -50%);
+            overflow: visible;
+            display: block;
+            background-size: 100% auto;
+        }
+        .st2-image {
+            position: absolute;
+            width: 150px;
+            height: 100%;
+            left: 130;
+            top: 140px;
+            transform: translate(-50%, -50%);
+            overflow: visible;
+            display: block;
+            background-size: 100% auto;
+        }
+        .st3-image {
+            position: absolute;
+            width: 150px;
+            height: 100%;
+            left: 510px;
+            top: 140px;
+            transform: translate(-50%, -50%);
+            overflow: visible;
+            display: block;
+            background-size: 100% auto;
+        }
+        .card-header {
+            position: absolute;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 35px;
+            left: 72;
+            color: #BC0000;
+        }
+        .card-header-dis {
+            position: absolute;
+            font-size: 10px;
+            margin-top: 53px;
+            left: 75px;
+            color: #BC0000;
+            font-weight: bold;
+        }
+        .govt-of {
+            position: absolute;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 65px;
+            left: 140px;
+            color: #BC0000;
+        }
+       .rashan-font {
+            position: absolute;
+            font-size: 11px;
+            margin-top: 100px;
+            left: 70px;
+        } 
+        .dd {
+            position: absolute;
+            font-size: 11px;
+            margin-top: 100px;
+            left: 160px;
+        }
+        .font-details {
+            position: absolute;
+            font-size: 11px;
+            margin-top: 100px;
+            left: 180px;
+        }
+        .table-data {
+            position: absolute;
+            margin-top: 68px;
+            left: 420px;
+        }
+        td {
+          font-size: 10px;  
+        }
+        .urlfficial {
+            position: absolute;
+            margin-top: 243px;
+            left: 485px;
+            font-size: 9px;
+        }

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.font-epic-no1 {
+    position: absolute;
+    top: 184.5px;
+    left: 55px;
+    font-size: 9px;
+    font-weight: Normal;
+    width: 130px;
+    font-family: ayar, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.voter-image {
+    position: absolute;
+    top: 203.5px;
+    left: 51px;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.voter-image-rt {
+    position: absolute;
+    top: 182px;
+    left: 319px;
+    height: 35px;
+    width: 32.5px;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.ul {
+    position: absolute;
+    top: 180px;
+    left: 140.2px;
+    font-size: 10px;
+    font-weight: Normal;
+    width: 220px;
+    letter-spacing: 0px;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.epic_ltr {
+    position: absolute;
+    top: 12px;
+    left: 346px;
+    font-size: 4.5px;
+    font-weight: normal;
+    width: 200px;
+    rotate: -90;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.ul-back {
+    position: absolute;
+    top: 118px;
+    left: 550px;
+    font-size: 10px;
+    font-weight: Normal;
+    width: 200px;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.assembly-hindi {
+    position: absolute;
+    top: 250.5px;
+    left: 550px;
+    font-size: 9px;
+    font-weight: Normal;
+    width: 200px;
+}
+
+.assembly-english {
+    position: absolute;
+    top: 260px;
+    left: 550px;
+    font-size: 9px;
+    font-weight: Normal;
+    width: 200px;
+}
+
+.download-date {
+    position: absolute;
+    top: 276.5px;
+    left: 550px;
+    font-size: 9px;
+    font-weight: Normal;
+    width: 170px;
+}
+
+.epic_back {
+    position: absolute;
+    top: 282.5px;
+    left: 460px;
+    font-size: 8px;
+    font-weight: Normal;
+    width: 170px;
+    letter-spacing: 0.8px;
+    font-family: ayar, Arial, sans-serif;
+}
+
+.ul_down {
+    position: absolute;
+    top: 402.5px;
+    left: 480px;
+    font-size: 11px;
+    font-weight: Normal;
+    width: 250px;
+    font-family: ayar, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.download-down {
+    position: absolute;
+    top: 638px;
+    left: 140px;
+    font-size: 10px;
+    font-weight: Normal;
+    width: 170px;
+    letter-spacing: 1px;
+}
+
+.br-down {
+    position: absolute;
+    top: 439.5px;
+    left: 41px;
+}
+
+.br-back {
+    position: absolute;
+    top: 185px;
+    left: 449px;
+}

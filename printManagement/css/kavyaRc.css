@@ -1,0 +1,508 @@
+            @font-face {
+    font-family: "Nirmala";
+    src: url("Nirmala.woff2") format("woff2"), /* Modern Browsers */
+         url("Nirmala.woff") format("woff"),   /* Modern Browsers */
+         url("Nirmala.ttf") format("truetype"); /* Legacy Browsers */
+}
+
+body {
+    font-family: Arial, "Nirmala UI", sans-serif;
+}
+
+.base-image-font {
+    background: url("img/rc-font.png") no-repeat;
+    position: absolute;
+    width: 350px;
+    height: 480px;
+    left: 40px;
+    overflow: visible;
+    display: block;
+    background-size: 100% auto;
+}
+.base-image-back {
+    background: url("img/rc-back.png") no-repeat;
+    position: absolute;
+    width: 350px;
+    height: 480px;
+    right: 40px;
+    overflow: visible;
+    display: block;
+    background-size: 100% auto;
+}
+.stateShort {
+     position: absolute;
+     top: 72.7px;
+     left: 355.5px;
+     font-weight: bold;
+     width: 12px;
+     height: 12px;
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 1px;
+     background-color: transparent;
+     text-align: center;
+}
+.vType {
+     position: absolute;
+     top: 72.7px;
+     left: 336.5px;
+     font-weight: bold;
+     width: 12px;
+     height: 12px;
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 1px;
+     background-color: transparent;
+     text-align: center;
+}
+.govtOf {
+    position: absolute;
+    top: 81px;
+    left: 156px;
+    font-size: 9px;
+    width: 180px;
+}
+.rgNumber {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.rgNumberdt {
+    position: absolute;
+    top: 111px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.rgDate {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.rgDatedt {
+    position: absolute;
+    top: 111px;
+    left: 220px;
+    font-size: 9px;
+    width: 180px;
+}
+.rgValidity {
+    position: absolute;
+    top: 100px;
+    left: 305px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.rgValiditydt {
+    position: absolute;
+    top: 111px;
+    left: 305px;
+    font-size: 9px;
+    width: 180px;
+}
+.ownerSr {
+    position: absolute;
+    top: 125px;
+    left: 305px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.ownSerial {
+    position: absolute;
+    top: 135px;
+    left: 305px;
+    font-size: 9px;
+    width: 180px;
+}
+.ownSerialRound {
+     position: absolute;
+     top: 129px;
+     left: 335px;
+     font-weight: bold;
+     width: 12px;
+     height: 12px;
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 1px;
+     background-color: transparent;
+     text-align: center;
+}
+.chassisNumber {
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.chassisNumberdt {
+    position: absolute;
+    top: 135px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.engineNumber {
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.engineNumberdt {
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.ownerName {
+    position: absolute;
+    top: 175px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.ownerNamedt {
+    position: absolute;
+    top: 185px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.ownerFatherName {
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    font-size: 9px;
+    width: 300px;
+    font-weight: bold;
+}
+.ownerFatherNamedt {
+    position: absolute;
+    top: 210px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.Address {
+    position: absolute;
+    top: 225px;
+    left: 130px;
+    font-size: 9px;
+    width: 300px;
+    font-weight: bold;
+}
+.Addressdt {
+    position: absolute;
+    top: 235px;
+    left: 130px;
+    font-size: 9px;
+    width: 180px;
+}
+.Fuel {
+    position: absolute;
+    top: 200px;
+    left: 48px;
+    font-size: 9px;
+    width: 300px;
+    font-weight: bold;
+}
+.Fueldt {
+    position: absolute;
+    top: 210px;
+    left: 48px;
+    font-size: 9px;
+    width: 180px;
+}
+.emissionNorms {
+    position: absolute;
+    top: 225px;
+    left: 48px;
+    font-size: 9px;
+    width: 300px;
+    font-weight: bold;
+}
+.emissionNormsdt {
+    position: absolute;
+    top: 235px;
+    left: 48px;
+    font-size: 9px;
+    width: 180px;
+}
+.cardIssue {
+    rotate: -90;
+    position: absolute;
+    top: 130px;
+    left: 372px;
+    font-size: 8px;
+    font-weight: bold;
+}
+.vehicleClass {
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    font-size: 9px;
+    width: 300px;
+    font-weight: bold;
+}
+.stateShortback {
+     position: absolute;
+     top: 72.7px;
+     right: 341.5px;
+     font-weight: bold;
+     width: 12px;
+     height: 12px;
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 1px;
+     background-color: transparent;
+     text-align: center;
+}
+.vTypeBack {
+     position: absolute;
+     top: 72.7px;
+     right: 361px;
+     font-weight: bold;
+     width: 12px;
+     height: 12px;
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 1px;
+     background-color: transparent;
+     text-align: center;
+     text-top: 10px;
+}
+.baseQrCode {
+    position: absolute;
+    top: 125px;
+    right: 273px;
+    width: 105px;
+    height: 105px;
+}
+.regnNumberBack {
+    position: absolute;
+    top: 100px;
+    right: 199px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.regnNumberBackdt {
+    position: absolute;
+    top: 110px;
+    right: 199px;
+    font-size: 9px;
+    width: 180px;
+}
+.mfd {
+    position: absolute;
+    top: 232px;
+    right: 199px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.mfddt {
+    position: absolute;
+    top: 242px;
+    right: 199px;
+    font-size: 9px;
+    width: 180px;
+}
+.noCylinders {
+    position: absolute;
+    top: 256px;
+    right: 199px;
+    font-size: 9px;
+    width: 180px;
+}
+.Maker {
+    position: absolute;
+    top: 100px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.Makerdt {
+    position: absolute;
+    top: 110px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.Model {
+    position: absolute;
+    top: 125px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.Modeldt {
+    position: absolute;
+    top: 135px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.Color {
+    position: absolute;
+    top: 150px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.Colordt {
+    position: absolute;
+    top: 160px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.bodyType {
+    position: absolute;
+    top: 150px;
+    right: -20px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.bodyTypedt {
+    position: absolute;
+    top: 160px;
+    right: -20px;
+    font-size: 9px;
+    width: 180px;
+}
+.siaCapacity {
+    position: absolute;
+    top: 175px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.siaCapacitydt {
+    position: absolute;
+    top: 185px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.wnladenWeight {
+    position: absolute;
+    top: 200px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.wnladenWeightdt {
+    position: absolute;
+    top: 210px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.cubicCap {
+    position: absolute;
+    top: 225px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.cubicCapdt {
+    position: absolute;
+    top: 235px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.hpkw {
+    position: absolute;
+    top: 225px;
+    right: 35px;
+    font-size: 9px;
+    width: 180px;
+}
+.hpkwdt {
+    position: absolute;
+    top: 235px;
+    right: 35px;
+    font-size: 9px;
+    width: 180px;
+}
+.wbm {
+    position: absolute;
+    top: 225px;
+    right: -70px;
+    font-size: 9px;
+    width: 180px;
+}
+.wbmdt {
+    position: absolute;
+    top: 235px;
+    right: -70px;
+    font-size: 9px;
+    width: 180px;
+}
+.Financier {
+    position: absolute;
+    top: 250px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+    font-weight: bold;
+}
+.Financierdt {
+    position: absolute;
+    top: 260px;
+    right: 85px;
+    font-size: 9px;
+    width: 180px;
+}
+.registrationAuthority {
+    position: absolute;
+    top: 250px;
+    right: -40px;
+    font-size: 9px;
+    width: 180px;
+}
+.registrationAuthoritydt {
+    position: absolute;
+    top: 260px;
+    right: -40px;
+    font-size: 9px;
+    width: 180px;
+}
+.fnamea {
+    rotate: -90;
+    position: absolute;
+    top: 150px;
+    right: 45px;
+    font-size: 8px;
+    font-weight: bold;
+}
+.badge {
+    position: absolute;
+    top: 126px;
+    left: 40px;
+}
+.chip {
+    position: absolute;
+    top: 122.5px;
+    left: 65px;
+}
